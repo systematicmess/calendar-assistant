@@ -38,7 +38,10 @@ A full-stack prototype that lets you
 ```bash
 git clone https://github.com/your-org/calendar-assistant.git
 cd calendar-assistant
-pnpm install      # installs both workspaces
+# install Python dependencies
+pip install -r requirements.txt
+# install front-end dependencies
+pnpm install
 ```
 
 ### 2 Environment variables
